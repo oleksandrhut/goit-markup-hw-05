@@ -326,10 +326,10 @@ body
    
  }
 
- .backdrop.is-hiden{
+ .backdrop.is-hidden{
    opacity: 0;
    pointer-events: none; 
-   /* visibility: hidden; */
+   visibility: hidden;
  }
  .modal{
    position: absolute;
@@ -357,6 +357,7 @@ body
    border-radius: 50%;
    background-color: inherit;
    border: 1px solid rgba(0, 0, 0, 0.1);
+   cursor: pointer;
  }
  .close-modal-icon{
    color: #000000;
